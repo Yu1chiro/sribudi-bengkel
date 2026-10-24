@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bengkel Sri Budi – Servis Motor dan Mobil di Penarukan, Singaraja</title>
+<meta name="description" content="Bengkel Sri Budi di Penarukan, Singaraja, Buleleng, Bali melayani servis motor dan mobil: ganti oli, rem, ban, kopling, mesin, ketok body, dan pengecatan. Harga bersahabat, pengerjaan teliti.">
+<meta name="theme-color" content="#0262C1">
+<link rel="icon" type="image/png" href="assets/images/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
+<meta property="og:title" content="Bengkel Sri Budi – Servis Motor dan Mobil di Singaraja">
+<meta property="og:description" content="Harga bersahabat, pengerjaan sabar dan teliti, pelayanan ramah. Jl. Pulau Dewata, Penarukan, Buleleng.">
+<!-- Setelah domain tersedia, tambahkan: <link rel="canonical" href="https://DOMAIN-ANDA/"> dan <meta property="og:url"> serta <meta property="og:image" content="https://DOMAIN-ANDA/assets/images/bengkel-depan.jpg"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- Tailwind via CDN (tanpa build). Untuk produksi skala besar, Tailwind bisa dikompilasi menjadi CSS statis di kemudian hari. -->
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+tailwind.config={theme:{extend:{colors:{ink:'#0F2742',soft:'#F3F8FD',line:'#DCE6F0',blue:'#0262C1',blueh:'#014C99',deep:'#0A3A78'},fontFamily:{head:['"Plus Jakarta Sans"','system-ui','-apple-system','"Segoe UI"','Roboto','Arial','sans-serif'],body:['"Plus Jakarta Sans"','system-ui','sans-serif']}}}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"AutoRepair","name":"Bengkel Sri Budi","description":"Bengkel sepeda motor dan mobil di Penarukan, Singaraja, Kabupaten Buleleng, Bali.","telephone":"+62 812-4683-2017","address":{"@type":"PostalAddress","streetAddress":"Jl. Pulau Dewata, Penarukan","addressLocality":"Buleleng","addressRegion":"Bali","postalCode":"81119","addressCountry":"ID"},"hasMap":"https://maps.app.goo.gl/cZJiU6hNkspu6Po46","areaServed":["Singaraja","Buleleng"]}
+</script>
+<style>
+/* Token warna: ubah di sini dan di tailwind.config di atas */
+:root{--ink:#0F2742;--soft:#F3F8FD;--line:#DCE6F0;--blue:#0262C1;--blueh:#014C99;--deep:#0A3A78}
+html{scroll-behavior:smooth;scroll-padding-top:4.75rem;-webkit-text-size-adjust:100%}
+body{font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:1rem;line-height:1.7;background:#fff;color:var(--ink);overflow-x:hidden}
+h1,h2,h3{line-height:1.15;font-weight:800;letter-spacing:-.02em}
+.h2{font-size:clamp(1.75rem,4.5vw,2.5rem)}
+.wrap{width:100%;max-width:74rem;margin-inline:auto;padding-inline:1.25rem}
+@media(min-width:1024px){.wrap{padding-inline:2rem}}
+.sec{padding-block:4rem}@media(min-width:1024px){.sec{padding-block:6rem}}
+.mut{color:#4B617A}.dk .mut,.dk.mut{color:#DCEBFA}
+.ic{width:1.75rem;height:1.75rem;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.ic-s{width:1.25rem;height:1.25rem}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px;box-shadow:0 0 0 2px #fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:3rem;padding:.65rem 1.4rem;font-weight:700;line-height:1.2;border:2px solid var(--blue);border-radius:.5rem;text-align:center;transition:background-color .15s,color .15s,border-color .15s}
+.btn-p{background:var(--blue);color:#fff}.btn-p:hover{background:var(--blueh);border-color:var(--blueh)}.btn-p:active{background:#013A78}
+.btn-o{background:transparent;color:var(--blue)}.btn-o:hover{background:#E6F0FB}
+.btn-w{background:#fff;color:var(--blue);border-color:#fff}.btn-w:hover{background:#E6F0FB;border-color:#E6F0FB}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.nl{display:block;padding:.75rem 0;font-weight:600;color:inherit;border-bottom:2px solid transparent}
+.nl:hover{color:var(--blue);border-bottom-color:var(--blue)}
+.dk .nl:hover{color:#fff;border-bottom-color:#fff}
+@media(min-width:1024px){.nl{padding:.4rem 0}}
+/* Menu mobile: drawer dari kiri */
+@media(max-width:1023.98px){
+#nav{position:absolute;left:0;top:100%;display:flex;flex-direction:column;width:min(18rem,82vw);height:calc(100vh - 4.3rem);height:calc(100dvh - 4.3rem);overflow-y:auto;padding:.5rem 1.25rem 1.25rem;background:#fff;border-right:1px solid var(--line);transform:translateX(-100%);visibility:hidden;transition:transform .25s ease,visibility 0s linear .25s}
+#nav.open{transform:translateX(0);visibility:visible;transition:transform .25s ease}
+}
+/* Bintang testimoni */
+.star{width:1.15rem;height:1.15rem;flex:none;fill:#F5B301;stroke:#F5B301;stroke-width:1.2;stroke-linejoin:round}
+.star.off{fill:none;stroke:#B9C8D9}
+/* Masonry: CSS columns */
+.mas{columns:1;column-gap:1rem}
+@media(min-width:640px){.mas{columns:2}}
+@media(min-width:1024px){.mas{columns:3}}
+.mas>*{break-inside:avoid;margin-bottom:1rem}
+.mas img,.mas video{display:block;width:100%;height:auto;background:var(--soft)}
+.mas img{aspect-ratio:3/4;object-fit:cover}
+.mas video{max-height:78vh;object-fit:contain}
+.ph{display:grid;place-items:center;text-align:center;width:100%;padding:1.5rem;background:var(--soft);color:#4B617A;border:1px solid var(--line);font-size:.95rem}
+/* Lightbox */
+#lb{max-width:min(96vw,1100px);max-height:94vh;margin:auto;padding:0;border:0;background:#0B1B33;color:#fff;overflow:auto}
+#lb::backdrop{background:rgba(11,27,51,.88)}
+#lb img{display:block;max-width:100%;max-height:80vh;width:auto;height:auto;margin:0 auto}
+/* FAQ */
+details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px solid var(--line)}
+summary{position:relative;cursor:pointer;list-style:none;min-height:3.25rem;padding:1rem 3rem 1rem 0;font-weight:700;font-size:1.0625rem}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:.5rem;top:.7rem;font-size:1.6rem;line-height:1.4;color:var(--blue)}
+details[open] summary::after{content:"\2013"}
+details>div{padding:0 0 1.25rem;max-width:42rem}
+.in{width:100%;min-height:3rem;padding:.6rem .85rem;background:#fff;color:var(--ink);border:1.5px solid #8CA3BF;border-radius:.5rem;font:inherit}
+.in:focus{border-color:var(--blue)}
+label{display:block;font-weight:600;margin-bottom:.3rem}
+.bar{padding-bottom:calc(.75rem + env(safe-area-inset-bottom,0px))}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body class="pb-24 lg:pb-0">
+
+<!-- Sprite ikon -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></symbol>
+<symbol id="i-brake" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M7 7l2 2M15 15l2 2M17 7l-2 2M9 15l-2 2"/></symbol>
+<symbol id="i-tire" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2"/></symbol>
+<symbol id="i-wind" viewBox="0 0 24 24"><path d="M3 8h10a3 3 0 1 0-3-3M3 12h15a3 3 0 1 1-3 3M3 16h7"/></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2.5"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l2.5 2.5M16.5 16.5L19 19M19 5l-2.5 2.5M7.5 16.5L5 19"/></symbol>
+<symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.2L3 17.8 6.2 21l6.3-6.3a4 4 0 0 0 5.2-5.4l-2.5 2.5-2.7-.7-.7-2.7z"/></symbol>
+<symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="i-smile" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9.5h.01M15 9.5h.01"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.7 7L4 20l1.2-4.6A8 8 0 1 1 21 12z"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></symbol>
+</svg>
+
+<header class="sticky top-0 z-50 bg-white text-ink border-b border-line">
+  <div class="wrap flex items-center justify-between h-[4.25rem]">
+    <a href="#beranda" class="flex items-center gap-3 leading-none" aria-label="Bengkel Sri Budi, ke beranda">
+      <img src="https://ik.imagekit.io/programassets/logo-bengkel.png" height="44" alt="" data-logo class="block h-11 w-auto flex-none">
+      <span class="block">
+        <span class="block font-head text-[1.5rem] font-extrabold text-blue">Sri Budi</span>
+        <span class="block text-[.8rem] mut mt-0.5">Bengkel motor dan mobil Singaraja</span>
+      </span>
+    </a>
+    <button id="mb" type="button" class="lg:hidden btn btn-o !px-3" aria-expanded="false" aria-controls="nav" aria-label="Buka menu">
+      <svg class="ic"><use href="#i-menu"/></svg>
+    </button>
+    <nav id="nav" aria-label="Navigasi utama" class="lg:flex lg:static lg:flex-row lg:items-center lg:gap-7 lg:p-0 lg:border-0 lg:bg-transparent lg:translate-x-0 lg:visible lg:h-auto lg:w-auto lg:overflow-visible">
+      <a class="nl" href="#beranda">Beranda</a>
+      <a class="nl" href="#layanan">Layanan</a>
+      <a class="nl" href="#galeri">Gallery</a>
+      <a class="nl" href="#tentang">Tentang Bengkel</a>
+      <a class="nl" href="#faq">FAQ</a>
+      <a class="nl" href="#kontak">Kontak</a>
+      <a class="btn btn-p mt-3 lg:mt-0 !min-h-[2.75rem]" data-wa="Halo Bengkel Sri Budi, saya ingin bertanya." href="https://wa.me/6281246832017" target="_blank" rel="noopener noreferrer"><svg class="ic ic-s"><use href="#i-chat"/></svg>WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="beranda" class="bg-white text-ink">
+  <div class="wrap grid lg:grid-cols-12 gap-9 lg:gap-14 items-center py-9 lg:py-20">
+    <div class="lg:col-span-5">
+      <h1 class="text-[2rem] sm:text-5xl lg:text-[3.1rem]">Servis Motor dan Mobil dengan Pengerjaan Teliti</h1>
+      <p class="mt-5 text-lg mut max-w-prose">Bengkel Sri Budi melayani perawatan dan perbaikan motor maupun mobil di Penarukan, Singaraja. Harga bersahabat, pengerjaan sabar dan teliti, serta pelayanan yang ramah.</p>
+      <div class="mt-7 flex flex-col sm:flex-row gap-3">
+        <a class="btn btn-p" data-wa="Halo Bengkel Sri Budi, saya ingin bertanya tentang servis kendaraan." href="https://wa.me/6281246832017" target="_blank" rel="noopener noreferrer"><svg class="ic ic-s"><use href="#i-chat"/></svg>Hubungi via WhatsApp</a>
+        <a class="btn btn-o" href="https://maps.app.goo.gl/cZJiU6hNkspu6Po46" target="_blank" rel="noopener noreferrer"><svg class="ic ic-s"><use href="#i-pin"/></svg>Petunjuk Arah</a>
+      </div>
+      <p class="mt-6 flex items-center gap-2 mut"><svg class="ic ic-s text-blue"><use href="#i-clock"/></svg>Jam operasional 08.00–18.00</p>
+    </div>
+    <div class="lg:col-span-7 border-b-[6px] border-blue">
+      <img src="https://ik.imagekit.io/programassets/hero-bengkel.JPG" width="1600" height="1200" fetchpriority="high" decoding="async" alt="Tampak depan Bengkel Sri Budi di Jl. Pulau Dewata, Penarukan, Singaraja" class="block w-full h-auto lg:max-h-[600px] object-cover bg-soft rounded-lg">
+    </div>
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section aria-labelledby="t-unggul" class="bg-soft text-ink">
+  <div class="wrap py-10 lg:py-12">
+    <h2 id="t-unggul" class="sr-only">Keunggulan Bengkel Sri Budi</h2>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-7 lg:gap-0 lg:divide-x lg:divide-line">
+      <li class="flex gap-4 lg:px-6 lg:first:pl-0"><svg class="ic text-blue"><use href="#i-tag"/></svg><div><h3 class="text-lg">Harga bersahabat</h3><p class="mut text-[.95rem]">Biaya terjangkau untuk perawatan dan perbaikan.</p></div></li>
+      <li class="flex gap-4 lg:px-6"><svg class="ic text-blue"><use href="#i-check"/></svg><div><h3 class="text-lg">Sabar dan teliti</h3><p class="mut text-[.95rem]">Dikerjakan tanpa terburu-buru, bagian demi bagian.</p></div></li>
+      <li class="flex gap-4 lg:px-6"><svg class="ic text-blue"><use href="#i-clock"/></svg><div><h3 class="text-lg">Berpengalaman</h3><p class="mut text-[.95rem]">Bertahun-tahun menangani motor dan mobil.</p></div></li>
+      <li class="flex gap-4 lg:px-6"><svg class="ic text-blue"><use href="#i-smile"/></svg><div><h3 class="text-lg">Pelayanan ramah</h3><p class="mut text-[.95rem]">Keluhan Anda didengar dan dijelaskan dengan jelas.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- LAYANAN MOTOR -->
+<section id="layanan" class="sec" aria-labelledby="t-motor">
+  <div class="wrap grid lg:grid-cols-12 gap-10 lg:gap-16">
+    <div class="lg:col-span-4">
+      <div class="lg:sticky lg:top-28">
+        <h2 id="t-motor" class="h2">Layanan Sepeda Motor</h2>
+        <p class="mt-4 mut">Kebutuhan harian motor Anda, dari ganti oli sampai kopling. Ceritakan keluhannya, kami bantu periksa.</p>
+        <a class="btn btn-p mt-6" data-wa="Halo Bengkel Sri Budi, saya ingin bertanya tentang servis motor." href="https://wa.me/6281246832017" target="_blank" rel="noopener noreferrer"><svg class="ic ic-s"><use href="#i-chat"/></svg>Tanyakan Servis Motor</a>
+      </div>
+    </div>
+    <ul class="lg:col-span-8 grid sm:grid-cols-2 sm:gap-x-10">
+      <li class="flex gap-4 border-t border-line py-5"><svg class="ic text-blue"><use href="#i-wrench"/></svg><div><h3 class="text-[1.125rem]">Servis rutin</h3><p class="mut">Pemeriksaan dan perawatan berkala agar motor tetap nyaman dipakai.</p></div></li>
+      <li class="flex gap-4 border-t border-line py-5"><svg class="ic text-blue"><use href="#i-drop"/></svg><div><h3 class="text-[1.125rem]">Ganti oli</h3><p class="mut">Penggantian oli mesin sesuai kebutuhan motor Anda.</p></div></li>
+      <li class="flex gap-4 border-t border-line py-5"><svg class="ic text-blue"><use href="#i-brake"/></svg><div><h3 class="text-[1.125rem]">Perbaikan rem</h3><p class="mut">Pemeriksaan dan perbaikan rem agar pengereman terasa aman.</p></div></li>
+      <li class="flex gap-4 border-t border-line py-5"><svg class="ic text-blue"><use href="#i-tire"/></svg><div><h3 class="text-[1.125rem]">Tambal ban</h3><p class="mut">Perbaikan ban motor yang bocor atau kempis.</p></div></li>
+      <li class="flex gap-4 border-t border-line py-5"><svg class="ic text-blue"><use href="#i-wind"/></svg><div><h3 class="text-[1.125rem]">Pengisian angin ban</h3><p class="mut">Isi angin agar tekanan ban sesuai dan berkendara lebih stabil.</p></div></li>
+      <li class="flex gap-4 border-t border-line py-5"><svg class="ic text-blue"><use href="#i-gear"/></svg><div><h3 class="text-[1.125rem]">Ganti kampas kopling</h3><p class="mut">Penggantian kampas kopling saat tarikan terasa kurang pas.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- LAYANAN MOBIL -->
+<section id="mobil" class="sec bg-soft text-ink" aria-labelledby="t-mobil">
+  <div class="wrap">
+    <div class="max-w-2xl">
+      <h2 id="t-mobil" class="h2">Layanan Mobil</h2>
+      <p class="mt-4 mut">Dari perawatan rutin sampai perbaikan bodi, dikelompokkan agar mudah dicari. Untuk kasus khusus, tanyakan dulu lewat WhatsApp.</p>
+    </div>
+    <div class="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-10">
+      <div class="border-t-2 border-blue pt-4"><h3 class="text-xl text-blue">Mesin dan servis rutin</h3><ul class="mt-3 space-y-3">
+        <li><strong>Perbaikan mesin</strong><br><span class="mut">Pemeriksaan dan perbaikan keluhan mesin.</span></li>
+        <li><strong>Servis rutin</strong><br><span class="mut">Perawatan berkala agar mobil tetap prima.</span></li>
+        <li><strong>Ganti oli</strong><br><span class="mut">Penggantian oli mesin.</span></li></ul></div>
+      <div class="border-t-2 border-blue pt-4"><h3 class="text-xl text-blue">Rem dan ban</h3><ul class="mt-3 space-y-3">
+        <li><strong>Perbaikan rem</strong><br><span class="mut">Pemeriksaan dan perbaikan sistem rem.</span></li>
+        <li><strong>Layanan ban mobil</strong><br><span class="mut">Penanganan dan perawatan ban mobil.</span></li></ul></div>
+      <div class="border-t-2 border-blue pt-4"><h3 class="text-xl text-blue">Aki dan kelistrikan</h3><ul class="mt-3 space-y-3">
+        <li><strong>Servis aki dan kelistrikan</strong><br><span class="mut">Pemeriksaan aki dan kelistrikan kendaraan.</span></li></ul></div>
+      <div class="border-t-2 border-blue pt-4"><h3 class="text-xl text-blue">Body repair dan pengecatan</h3><ul class="mt-3 space-y-3">
+        <li><strong>Ketok body</strong><br><span class="mut">Merapikan bagian bodi yang penyok.</span></li>
+        <li><strong>Perbaikan body mobil</strong><br><span class="mut">Perbaikan kerusakan pada bodi.</span></li>
+        <li><strong>Pengecatan ulang</strong><br><span class="mut">Pengecatan kembali bodi kendaraan.</span></li></ul></div>
+      <div class="border-t-2 border-blue pt-4"><h3 class="text-xl text-blue">Pengelasan dan modifikasi</h3><ul class="mt-3 space-y-3">
+        <li><strong>Pengelasan</strong><br><span class="mut">Pekerjaan las untuk perbaikan kendaraan.</span></li>
+        <li><strong>Modifikasi</strong><br><span class="mut">Penyesuaian kendaraan sesuai kebutuhan Anda.</span></li></ul></div>
+      <div class="flex items-end"><a class="btn btn-p" data-wa="Halo Bengkel Sri Budi, saya ingin bertanya tentang servis mobil." href="https://wa.me/6281246832017" target="_blank" rel="noopener noreferrer"><svg class="ic ic-s"><use href="#i-chat"/></svg>Tanyakan Servis Mobil</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERI (masonry) -->
+<section id="galeri" class="sec" aria-labelledby="t-galeri">
+  <div class="wrap">
+    <h2 id="t-galeri" class="h2">Gallery View</h2>
+    <p class="mt-4 mut max-w-xl">Suasana dan tempat</p>
+    <div class="mas mt-9">
+      <figure><button type="button" data-lb class="block w-full cursor-zoom-in" aria-label="Perbesar foto: tampak depan Bengkel Sri Budi"><img src="https://ik.imagekit.io/programassets/IMG_5861.JPG" width="1200" height="1600" loading="lazy" decoding="async" alt="Tampak depan Bengkel Sri Budi di Penarukan, Singaraja"></button><figcaption class="bg-white text-ink border border-t-0 border-line text-[.95rem] px-3 py-2">Tampak depan bengkel</figcaption></figure>
+      <figure><button type="button" data-lb class="block w-full cursor-zoom-in" aria-label="Perbesar foto: bagian dalam Bengkel Sri Budi"><img src="https://ik.imagekit.io/programassets/IMG_5860.JPG" width="1200" height="1600" loading="lazy" decoding="async" alt="Bagian dalam bengkel tempat motor dan mobil dikerjakan"></button><figcaption class="bg-white text-ink border border-t-0 border-line text-[.95rem] px-3 py-2">Area kerja di dalam bengkel</figcaption></figure>
+      <figure><video controls playsinline preload="metadata" width="720" height="1280" aria-label="Video suasana Bengkel Sri Budi" poster="assets/images/poster-bengkel.jpg"><source src="https://ik.imagekit.io/programassets/IMG_5858.MOV" type="video/mp4" autoplay muted>Browser Anda tidak mendukung pemutaran video.</video><figcaption class="bg-white text-ink border border-t-0 border-line text-[.95rem] px-3 py-2">Video suasana bengkel</figcaption></figure>
+      <figure><button type="button" data-lb class="block w-full cursor-zoom-in" aria-label="Perbesar foto: interior bengkel"><img src="https://ik.imagekit.io/programassets/hero-bengkel.JPG" width="1200" height="1600" loading="lazy" decoding="async" alt="Interior bengkel dengan peralatan dan kendaraan yang diperbaiki"></button><figcaption class="bg-white text-ink border border-t-0 border-line text-[.95rem] px-3 py-2">Interior bengkel</figcaption></figure>
+      <figure><button type="button" data-lb class="block w-full cursor-zoom-in" aria-label="Perbesar foto: interior bengkel"><img src="https://ik.imagekit.io/programassets/last-section.JPG" width="1200" height="1600" loading="lazy" decoding="async" alt="Interior bengkel dengan peralatan dan kendaraan yang diperbaiki"></button><figcaption class="bg-white text-ink border border-t-0 border-line text-[.95rem] px-3 py-2">Interior bengkel</figcaption></figure>
+      <figure><button type="button" data-lb class="block w-full cursor-zoom-in" aria-label="Perbesar foto: interior bengkel"><img src="https://ik.imagekit.io/programassets/galery1.JPG" width="1200" height="1600" loading="lazy" decoding="async" alt="Interior bengkel dengan peralatan dan kendaraan yang diperbaiki"></button><figcaption class="bg-white text-ink border border-t-0 border-line text-[.95rem] px-3 py-2">Interior bengkel</figcaption></figure>
+      <figure><button type="button" data-lb class="block w-full cursor-zoom-in" aria-label="Perbesar foto: interior bengkel"><img src="https://ik.imagekit.io/programassets/gallery%202.JPG" width="1200" height="1600" loading="lazy" decoding="async" alt="Interior bengkel dengan peralatan dan kendaraan yang diperbaiki"></button><figcaption class="bg-white text-ink border border-t-0 border-line text-[.95rem] px-3 py-2">Interior bengkel</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang" class="sec bg-soft" aria-labelledby="t-tentang">
+  <div class="wrap grid md:grid-cols-2 gap-10 lg:gap-16 items-center">
+    <div class="md:order-2">
+      <h2 id="t-tentang" class="h2">Tentang Bengkel Sri Budi</h2>
+      <p class="mt-5">Bengkel Sri Budi berada di Jl. Pulau Dewata, Penarukan, Singaraja. Kami menangani servis mobil sebagai layanan utama, dan juga perbaikan motor dari mesin sampai bodi.</p>
+      <p class="mt-4">Dengan pengalaman bertahun-tahun, kami mengerjakan setiap kendaraan dengan sabar dan teliti, menjaga harga tetap bersahabat, dan melayani pelanggan Singaraja dan Buleleng dengan ramah.</p>
+    </div>
+    <div class="md:order-1"><img src="https://ik.imagekit.io/programassets/hero-bengkel.JPG" width="900" height="600" loading="lazy" decoding="async" alt="Logo Bengkel Sri Budi, bengkel motor dan mobil" class="block w-full h-auto rounded-lg border-b-[6px] border-blue"></div>
+  </div>
+</section>
+
+<!-- HARGA -->
+<section id="harga" class="sec bg-blue text-white dk" aria-labelledby="t-harga">
+  <div class="wrap grid lg:grid-cols-12 gap-8 items-center">
+    <div class="lg:col-span-7">
+      <h2 id="t-harga" class="h2">Harga Layanan</h2>
+      <p class="mt-4 text-lg text-white/90 max-w-xl">Biaya servis menyesuaikan jenis layanan dan kondisi kendaraan. Hubungi Bengkel Sri Budi untuk mendapatkan informasi lebih lanjut.</p>
+      <dl id="daftar-harga" class="mt-6 max-w-xl"></dl>
+    </div>
+    <div class="lg:col-span-5 lg:justify-self-end"><a class="btn btn-w" data-wa="Halo Bengkel Sri Budi, saya ingin menanyakan biaya servis." href="https://wa.me/6281246832017" target="_blank" rel="noopener noreferrer"><svg class="ic ic-s"><use href="#i-chat"/></svg>Tanyakan Biaya Servis</a></div>
+  </div>
+</section>
+
+<!-- TESTIMONI: tersembunyi sampai ada data asli di array TESTIMONI (lihat script) -->
+<section id="testimoni" class="sec bg-white" aria-labelledby="t-testi" hidden>
+  <div class="wrap"><h2 id="t-testi" class="h2">Kata Pelanggan</h2><div id="testi-list" class="mt-9 grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div></div>
+</section>
+
+<!-- BOOKING WHATSAPP -->
+<section id="kontak" class="sec bg-soft" aria-labelledby="t-booking">
+  <div class="wrap grid lg:grid-cols-5 gap-10 lg:gap-16">
+    <div class="lg:col-span-2">
+      <h2 id="t-booking" class="h2">Booking atau Konsultasi via WhatsApp</h2>
+      <p class="mt-4 mut">Isi formulir singkat, lalu kami siapkan pesan WhatsApp untuk Anda kirim ke bengkel.</p>
+      <p class="mt-4 border-l-4 border-blue pl-4 text-[1rem]">Formulir ini hanya menyiapkan pesan WhatsApp dan tidak menyimpan data. Booking belum terkonfirmasi sampai ada balasan atau persetujuan dari pihak bengkel.</p>
+    </div>
+    <form id="fb" class="lg:col-span-3 grid sm:grid-cols-2 gap-5" novalidate>
+      <div><label for="nama">Nama</label><input class="in" id="nama" name="nama" type="text" autocomplete="name" required></div>
+      <div><label for="jenis">Jenis kendaraan</label><select class="in" id="jenis" name="jenis" required><option value="">Pilih kendaraan</option><option>Motor</option><option>Mobil</option></select></div>
+      <div class="sm:col-span-2"><label for="keluhan">Keluhan atau kebutuhan servis</label><textarea class="in" id="keluhan" name="keluhan" rows="3" required></textarea></div>
+      <div><label for="tanggal">Tanggal kunjungan (opsional)</label><input class="in" id="tanggal" name="tanggal" type="date"></div>
+      <div><label for="catatan">Catatan tambahan (opsional)</label><input class="in" id="catatan" name="catatan" type="text"></div>
+      <div class="sm:col-span-2"><p id="fe" role="alert" class="mb-3 font-semibold text-[#B3261E]"></p><button class="btn btn-p w-full sm:w-auto" type="submit"><svg class="ic ic-s"><use href="#i-chat"/></svg>Siapkan Pesan WhatsApp</button></div>
+    </form>
+  </div>
+</section>
+
+<!-- LOKASI -->
+<section id="lokasi" class="sec bg-white text-ink" aria-labelledby="t-lokasi">
+  <div class="wrap">
+    <h2 id="t-lokasi" class="h2">Lokasi Bengkel</h2>
+    <dl class="mt-8 grid sm:grid-cols-2 gap-x-12 gap-y-6 max-w-3xl">
+      <div><dt class="font-bold text-blue">Alamat</dt><dd>Jl. Pulau Dewata, Penarukan, Kec. Buleleng, Kabupaten Buleleng, Bali 81119</dd></div>
+      <div><dt class="font-bold text-blue">Jam operasional</dt><dd>08.00–18.00</dd></div>
+      <div><dt class="font-bold text-blue">Area pelanggan</dt><dd>Singaraja dan Buleleng</dd></div>
+      <div><dt class="font-bold text-blue">WhatsApp</dt><dd><a class="underline underline-offset-4" href="https://wa.me/6281246832017" target="_blank" rel="noopener noreferrer">+62 812-4683-2017</a></dd></div>
+    </dl>
+    <div class="mt-8 flex flex-col sm:flex-row gap-3">
+      <a class="btn btn-p" href="https://maps.app.goo.gl/cZJiU6hNkspu6Po46" target="_blank" rel="noopener noreferrer"><svg class="ic ic-s"><use href="#i-pin"/></svg>Buka Google Maps</a>
+      <a class="btn btn-o" data-wa="Halo Bengkel Sri Budi, saya ingin menanyakan jadwal kedatangan." href="https://wa.me/6281246832017" target="_blank" rel="noopener noreferrer"><svg class="ic ic-s"><use href="#i-chat"/></svg>Tanya Jadwal Kedatangan</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="sec bg-soft" aria-labelledby="t-faq">
+  <div class="wrap grid lg:grid-cols-12 gap-8 lg:gap-16">
+    <h2 id="t-faq" class="h2 lg:col-span-4">Pertanyaan yang Sering Diajukan</h2>
+    <div class="lg:col-span-8">
+      <details><summary>Di mana lokasi Bengkel Sri Budi?</summary><div class="mut">Jl. Pulau Dewata, Penarukan, Kec. Buleleng, Kabupaten Buleleng, Bali 81119. <a class="underline text-blue font-semibold" href="https://maps.app.goo.gl/cZJiU6hNkspu6Po46" target="_blank" rel="noopener noreferrer">Buka di Google Maps</a>.</div></details>
+      <details><summary>Jam berapa bengkel beroperasi?</summary><div class="mut">Jam operasional 08.00–18.00. Untuk memastikan hari bengkel buka, hubungi WhatsApp sebelum datang.</div></details>
+      <details><summary>Apakah bengkel melayani motor dan mobil?</summary><div class="mut">Ya. Layanan motor menjadi fokus utama, dan kami juga menangani berbagai perbaikan mobil.</div></details>
+      <details><summary>Layanan apa saja yang tersedia?</summary><div class="mut">Motor: servis rutin, ganti oli, rem, tambal ban, isi angin, kampas kopling. Mobil: mesin, servis rutin, oli, rem, ban, aki dan kelistrikan, ketok body, perbaikan body, pengecatan ulang, pengelasan, dan modifikasi. Lihat <a class="underline text-blue font-semibold" href="#layanan">daftar layanan</a>.</div></details>
+      <details><summary>Bagaimana cara menanyakan biaya servis?</summary><div class="mut">Biaya menyesuaikan jenis layanan dan kondisi kendaraan. Kirim keluhan Anda lewat WhatsApp untuk informasi lebih lanjut.</div></details>
+      <details><summary>Bagaimana cara menghubungi bengkel?</summary><div class="mut">Hubungi WhatsApp +62 812-4683-2017, atau datang langsung ke alamat bengkel pada jam operasional.</div></details>
+      <details><summary>Apakah bisa menanyakan jadwal kedatangan lewat WhatsApp?</summary><div class="mut">Bisa. Gunakan <a class="underline text-blue font-semibold" href="#kontak">formulir WhatsApp</a> atau kirim pesan langsung. Jadwal baru pasti setelah ada balasan dari bengkel.</div></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="bg-deep text-white dk">
+  <div class="wrap py-12 grid md:grid-cols-3 gap-9">
+    <div><p class="font-head text-2xl font-extrabold">Bengkel Sri Budi</p><p class="mut mt-2">Servis motor dan mobil di Penarukan, Singaraja.</p></div>
+    <address class="not-italic space-y-2 mut">
+      <p>Jl. Pulau Dewata, Penarukan, Kec. Buleleng, Kabupaten Buleleng, Bali 81119</p>
+      <p>Jam operasional 08.00–18.00</p>
+      <p><a class="underline underline-offset-4" href="https://wa.me/6281246832017" target="_blank" rel="noopener noreferrer">WhatsApp +62 812-4683-2017</a></p>
+      <p><a class="underline underline-offset-4" href="https://maps.app.goo.gl/cZJiU6hNkspu6Po46" target="_blank" rel="noopener noreferrer">Google Maps</a></p>
+    </address>
+    <nav aria-label="Navigasi footer"><ul class="grid grid-cols-2 gap-x-6">
+      <li><a class="nl" href="#layanan">Layanan Motor</a></li><li><a class="nl" href="#mobil">Layanan Mobil</a></li>
+      <li><a class="nl" href="#galeri">Galeri</a></li><li><a class="nl" href="#tentang">Tentang</a></li>
+      <li><a class="nl" href="#harga">Harga</a></li><li><a class="nl" href="#faq">FAQ</a></li>
+      <li><a class="nl" href="#kontak">Kontak</a></li><li><a class="nl" href="#lokasi">Lokasi</a></li>
+    </ul></nav>
+  </div>
+  <div class="wrap pb-12">
+    <iframe title="Peta lokasi Bengkel Sri Budi" class="block w-full h-64 md:h-80 rounded-lg border border-white/15" src="https://www.google.com/maps?q=Bengkel+Sri+Budi,+Jl.+Pulau+Dewata,+Penarukan,+Buleleng,+Bali+81119&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <p class="border-t border-white/15 py-5 text-center text-sm mut">&copy; <span id="yr">2026</span> Bengkel Sri Budi</p>
+</footer>
+
+<!-- CTA mobile -->
+<div class="bar fixed bottom-0 inset-x-0 z-40 lg:hidden bg-white border-t border-line px-3 pt-3 flex gap-2">
+  <a class="btn btn-p flex-1" data-wa="Halo Bengkel Sri Budi, saya ingin bertanya tentang servis kendaraan." href="https://wa.me/6281246832017" target="_blank" rel="noopener noreferrer"><svg class="ic ic-s"><use href="#i-chat"/></svg>Chat WhatsApp</a>
+  <a class="btn btn-o" href="https://maps.app.goo.gl/cZJiU6hNkspu6Po46" target="_blank" rel="noopener noreferrer" aria-label="Petunjuk arah ke bengkel"><svg class="ic ic-s"><use href="#i-pin"/></svg>Rute</a>
+</div>
+
+<dialog id="lb" aria-label="Tampilan foto diperbesar">
+  <button id="lbx" type="button" class="btn btn-p absolute top-2 right-2 !min-h-[2.75rem] !px-3" aria-label="Tutup (Esc)"><svg class="ic ic-s"><use href="#i-x"/></svg></button>
+  <img id="lbi" src="" alt="">
+  <p id="lbc" class="px-4 py-3 text-white/80"></p>
+</dialog>
+
+<script>
+(function(){
+var $=function(s,r){return(r||document).querySelector(s)},$$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+var WA='https://wa.me/6281246832017',waUrl=function(t){return WA+'?text='+encodeURIComponent(t)};
+$$('[data-wa]').forEach(function(a){a.href=waUrl(a.dataset.wa)});
+$('#yr').textContent=new Date().getFullYear();
+
+/* Menu mobile */
+var mb=$('#mb'),nav=$('#nav');
+function menu(open){nav.classList.toggle('open',open);mb.setAttribute('aria-expanded',open);mb.setAttribute('aria-label',open?'Tutup menu':'Buka menu');mb.querySelector('use').setAttribute('href',open?'#i-x':'#i-menu')}
+mb.addEventListener('click',function(){menu(mb.getAttribute('aria-expanded')!=='true')});
+$$('a',nav).forEach(function(a){a.addEventListener('click',function(){menu(false)})});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&mb.getAttribute('aria-expanded')==='true'){menu(false);mb.focus()}});
+
+/* Fallback rapi jika aset belum ada */
+function ph(el,text){var d=document.createElement('div');d.className='ph';d.setAttribute('role','img');d.setAttribute('aria-label',text);d.style.aspectRatio=(el.getAttribute('width')||4)+'/'+(el.getAttribute('height')||3);d.textContent='Foto menyusul';el.replaceWith(d);var b=d.closest('button');if(b){b.disabled=true;b.style.cursor='default'}}
+$$('img:not(#lbi):not([data-logo])').forEach(function(im){
+  var f=function(){ph(im,im.alt)};
+  if(im.complete&&im.naturalWidth===0)f();else im.addEventListener('error',f,{once:true});
+});
+$$('video').forEach(function(v){var s=$('source',v);s&&s.addEventListener('error',function(){var d=document.createElement('div');d.className='ph';d.style.aspectRatio='9/16';d.style.maxHeight='78vh';d.textContent='Video menyusul';v.replaceWith(d)},{once:true})});
+
+/* Lightbox */
+var lb=$('#lb'),lbi=$('#lbi');
+$$('[data-lb]').forEach(function(b){b.addEventListener('click',function(){var im=$('img',b);if(!im)return;lbi.src=im.currentSrc||im.src;lbi.alt=im.alt;$('#lbc').textContent=(b.nextElementSibling||{}).textContent||'';lb.showModal()})});
+$('#lbx').addEventListener('click',function(){lb.close()});
+lb.addEventListener('click',function(e){if(e.target===lb)lb.close()});
+lb.addEventListener('close',function(){lbi.removeAttribute('src')});
+
+/* Data opsional: isi bila sudah ada data resmi */
+var HARGA=[];     // contoh: {layanan:'Ganti oli motor', harga:'Rp ...'}
+/* TESTIMONI CONTOH (dummy): ganti dengan testimoni pelanggan asli sebelum dipublikasikan */
+var TESTIMONI=[
+{nama:'Komang Ariasa',asal:'Penarukan',teks:'Motor saya sempat susah direm. Di Sri Budi dicek pelan-pelan dan dijelaskan apa yang bermasalah. Hasilnya enak dipakai lagi, biayanya juga tidak bikin kaget.',bintang:5},
+{nama:'Ni Luh Sari Dewi',asal:'Banyuasri',teks:'Orangnya ramah dan sabar. Waktu saya tanya-tanya soal servis mobil, semuanya dijawab dengan bahasa yang gampang dimengerti.',bintang:5},
+{nama:'Made Wirawan',asal:'Kampung Baru',teks:'Ketok body mobil saya dikerjakan rapi. Ditanya lewat WhatsApp dulu, jadi datang ke bengkel sudah tahu mau bagaimana.',bintang:5},
+{nama:'Putu Sedana',asal:'Kaliuntu',teks:'Langganan ganti oli dan tambal ban di sini. Harganya bersahabat dan pengerjaannya tidak asal-asalan.',bintang:5},
+{nama:'Gede Yoga Pratama',asal:'Kalibukbuk',teks:'Kopling motor sudah mulai terasa kurang pas, lalu diganti di sini. Sekarang jalan lagi normal. Terima kasih, Pak.',bintang:5},
+{nama:'Ketut Sudiarta',asal:'Singaraja',teks:'Bengkelnya mudah dicari di Penarukan. Pelayanannya enak, tidak buru-buru, dan kami diberi tahu bagian mana saja yang perlu diperbaiki.',bintang:5}
+];
+if(HARGA.length){var dl=$('#daftar-harga');HARGA.forEach(function(h){var r=document.createElement('div');r.className='flex justify-between gap-4 border-t border-white/25 py-3';var a=document.createElement('dt'),b=document.createElement('dd');a.textContent=h.layanan;b.textContent=h.harga;b.className='font-bold text-white';r.append(a,b);dl.append(r)})}
+if(TESTIMONI.length){$('#testimoni').hidden=false;TESTIMONI.forEach(function(t){var ar=document.createElement('article'),h=document.createElement('h3'),a=document.createElement('p'),p=document.createElement('p'),st=document.createElement('div'),n=Math.max(0,Math.min(5,Math.round(t.bintang||0)));ar.className='flex flex-col bg-soft border border-line rounded-xl p-6';h.className='text-lg';h.textContent=t.nama;a.className='mut text-[.95rem]';a.textContent=t.asal||'';p.className='mt-4';p.textContent=t.teks;st.className='mt-auto pt-5 flex gap-1';st.setAttribute('role','img');st.setAttribute('aria-label','Rating '+n+' dari 5 bintang');for(var k=0;k<5;k++){var s=document.createElementNS('http://www.w3.org/2000/svg','svg');s.setAttribute('class','star'+(k<n?'':' off'));s.setAttribute('aria-hidden','true');var u=document.createElementNS('http://www.w3.org/2000/svg','use');u.setAttribute('href','#i-star');s.appendChild(u);st.appendChild(s)}ar.append(h,a,p,st);$('#testi-list').append(ar)})}
+
+/* Form WhatsApp */
+var tg=$('#tanggal');if(tg){var n=new Date();tg.min=n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0')}
+$('#fb').addEventListener('submit',function(e){
+  e.preventDefault();var f=e.target,v=function(k){return f.elements[k].value.trim()},err=$('#fe');
+  var nama=v('nama'),jenis=v('jenis'),kel=v('keluhan'),tgl=v('tanggal'),cat=v('catatan');
+  if(nama.length<2){err.textContent='Isi nama Anda.';f.elements.nama.focus();return}
+  if(!jenis){err.textContent='Pilih jenis kendaraan: motor atau mobil.';f.elements.jenis.focus();return}
+  if(kel.length<5){err.textContent='Tulis keluhan atau kebutuhan servis (minimal 5 huruf).';f.elements.keluhan.focus();return}
+  err.textContent='';
+  var t='Halo Bengkel Sri Budi, saya ingin bertanya/booking servis.\n\nNama: '+nama+'\nKendaraan: '+jenis+'\nKeluhan/kebutuhan: '+kel;
+  if(tgl){var p=tgl.split('-');t+='\nRencana kunjungan: '+p[2]+'-'+p[1]+'-'+p[0]}
+  if(cat)t+='\nCatatan: '+cat;
+  window.location.href=waUrl(t);
+});
+})();
+</script>
+</body>
+</html>
